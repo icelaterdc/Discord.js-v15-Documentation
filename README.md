@@ -1,7 +1,7 @@
 # Discord.js-v15-Documentation
 
 <p align="center">
-  <img src="https://discord.js.org/static/logo.svg" alt="discord.js Logo" width="600" />
+  <img src="https://discord.js.org/static/logo.svg" alt="discord.js Logo" width="500" />
 </p>
 
 <p align="center">
@@ -130,7 +130,7 @@ npm install discord.js@dev
 ---
 
 <p align="center">
-  <img src="https://discord.js.org/static/logo.svg" width="400" alt="discord.js preview" />
+  <img src="https://discord.js.org/static/logo.svg" width="200" alt="discord.js preview" />
 </p>
 
 <p align="center"><i>Built with ❤️ by the open-source community — shaping the future of Discord bot development.</i></p>
