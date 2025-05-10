@@ -1,7 +1,7 @@
 # Discord.js-v15-Documentation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/assets/banner.svg" alt="discord.js Logo" width="600" />
+  <img src="https://discord.js.org/static/logo.svg" alt="discord.js Logo" width="600" />
   <br/>
   <img src="https://img.shields.io/npm/v/discord.js/dev?color=blue&label=Dev%20Version&logo=npm" />
   <img src="https://img.shields.io/node/v/discord.js/dev?logo=node.js&label=Node%20Support" />
