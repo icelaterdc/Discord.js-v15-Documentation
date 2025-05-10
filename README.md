@@ -1,2 +1,126 @@
 # Discord.js-v15-Documentation
-This repo contains the estimated future features of Discord.js v15. Since the stable version is not fully released, the completeness or accuracy of the features is not guaranteed.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/assets/banner.svg" alt="discord.js Logo" width="600" />
+  <br/>
+  <img src="https://img.shields.io/npm/v/discord.js/dev?color=blue&label=Dev%20Version&logo=npm" />
+  <img src="https://img.shields.io/node/v/discord.js/dev?logo=node.js&label=Node%20Support" />
+  <img src="https://img.shields.io/github/issues/discordjs/discord.js" />
+  <img src="https://img.shields.io/github/stars/discordjs/discord.js?style=social" />
+</p>
+
+<h1 align="center">🚀 discord.js v15 — Developer Preview</h1>
+
+<p align="center">
+  The next evolution of the most powerful Node.js library for building Discord bots
+</p>
+
+---
+
+## 📌 Summary
+
+`discord.js v15` represents a significant upgrade aimed at modernizing the developer experience and aligning with the latest Discord API advancements. This version introduces improved native support, better caching strategies, enhanced developer tooling, and future-ready design patterns.
+
+---
+
+## 📦 Installation
+
+```bash
+npm install discord.js@dev
+```
+
+> ⚠️ Requires **Node.js v20.0.0 or later**
+>
+> Use [nvm](https://github.com/nvm-sh/nvm) or [nvm-windows](https://github.com/coreybutler/nvm-windows) for seamless version management.
+
+---
+
+## ✨ Highlights & Features
+
+### ✅ Native Web API Support
+
+* First-class integration with `fetch`, `AbortController`, `ReadableStream`
+* Internal replacement of old polyfills
+* Powered by [`undici`](https://github.com/nodejs/undici)
+
+### 💬 Modern Interaction Capabilities
+
+* Native APIs for modals, context menus, and UI components
+* Enhanced collectors & interaction responses
+* Future command routing system in the works
+
+### ⚙️ Efficient Caching System
+
+* Fully customizable cache layers
+* Toggle caching per resource (guilds, users, members, roles...)
+* Expected REST-only mode for minimal memory use
+
+### 🧠 Improved Developer Experience
+
+* Fully retyped for advanced TypeScript support
+* Smarter IntelliSense with `Client` and `Interaction`
+* Annotated JSDoc and better inline documentation
+
+### 🌐 Gateway & Protocol Upgrades
+
+* Complete support for Discord Gateway v11
+* Graceful reconnections & lifecycle tracking
+
+---
+
+## 📊 Version Comparison (v14 vs v15)
+
+| Feature                | v14.x      | v15 (dev)     |
+| ---------------------- | ---------- | ------------- |
+| Node.js Support        | 16.x+      | 20.x+         |
+| Native `fetch`         | ❌          | ✅             |
+| Modals Support         | ⚠️ Partial | ✅ Full Native |
+| Typings & IntelliSense | Moderate   | 🔥 Excellent  |
+| REST-only Mode         | ❌          | ✅ (Expected)  |
+| Built-in Router        | ❌          | 🧪 Planned    |
+
+---
+
+## 🛠️ Recommended Tooling
+
+* **Node.js:** v20.x or higher
+* **TypeScript:** v5.x
+* **Linters:** ESLint, Prettier
+* **Project Structure:** Modular (commands, events, handlers)
+
+---
+
+## 🔮 Roadmap & Speculation
+
+| Area                    | Future Status  | Description                                            |
+| ----------------------- | -------------- | ------------------------------------------------------ |
+| ESM-only Support        | Likely         | CJS to be deprecated in favor of modern module systems |
+| Built-in Command Router | In development | Simplified interaction-based routing system            |
+| CLI Tools               | In discussion  | Scaffolding and command generation support             |
+| Tree-shaking Support    | Possible       | Smaller production builds with dead-code elimination   |
+
+---
+
+## 📚 Learning & References
+
+* [GitHub Repository](https://github.com/discordjs/discord.js)
+* [NPM Page](https://www.npmjs.com/package/discord.js)
+* [Official Documentation (dev)](https://discord.js.org/#/docs/discord.js/dev/general/welcome)
+* [Changelog](https://github.com/discordjs/discord.js/releases)
+* [Discord API Docs](https://discord.com/developers/docs/intro)
+
+---
+
+## 🤝 Community & Contributions
+
+* 🐞 [Submit Issues](https://github.com/discordjs/discord.js/issues)
+* 🧠 [Join the Discord API Server](https://discord.gg/discord-api)
+* 🐦 [Follow @discordjs](https://twitter.com/discordjs) for updates
+
+---
+
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/822403132247326730/1143236745641185331/discordjs_preview.png" width="400" alt="discord.js preview" />
+</p>
+
+<p align="center"><i>Built with ❤️ by the open-source community — shaping the future of Discord bot development.</i></p>
